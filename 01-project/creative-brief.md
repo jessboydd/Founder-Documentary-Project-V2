@@ -1,39 +1,50 @@
-# Creative brief — working draft
+# Bear With Me: The Ready Kit
 
-**Project:** Bear With Me: The Ready Kit  
-**Tagline:** Life happens.
+*Life happens.*
 
-## Problem
-Even simple car-care tasks can feel overwhelming under stress, particularly when someone hasn't been taught what to do or doesn't know the right words to search for.
+### Problem, Opportunity & Audience
 
-## Audience
-Initially women who drive regularly but have limited experience with basic automotive maintenance; accessible to all beginner drivers.
+Even simple tasks can feel overwhelming when we're unfamiliar with something or haven't been taught what to do. My disorganized glove compartment reminded me of the car troubles I experienced in my early 20s. I remember feeling stressed and unprepared, especially when I didn't understand what was happening or what to do next.
 
-## Proposed product
-A colorful, customized compact organizer with a section for sample vehicle documents, a tire-pressure gauge, flashlight, and a short illustrated tabbed guidebook. A QR code links to a mobile-friendly website with step-by-step information and an experimental AI-assisted guide.
+It made me wonder: Is having the right tool enough if we don't know how to use it or recognize the problem?
 
-## Two scenarios
-1. **Checking tire pressure:** locate the tool and follow instructions on a safely parked vehicle.
-2. **Dashboard warnings:** photograph or describe one of a few selected dashboard symbols, confirm the suggested identification, then consult verified guidance and appropriate next steps.
+Bear With Me is designed primarily for women with limited automotive experience. I want to explore whether organization, approachable design, and practical education can make unfamiliar car situations easier to navigate.
 
-## Core research question
-Can combining approachable product design, functional organization, beginner-friendly learning, and narrowly scoped AI guidance help users find information, understand the situation, and make appropriate decisions?
+### Project Statement & Smallest Viable Version
 
-## Initial MVP and boundary
-- Adapt **one existing organizer**, not manufacture multiple kits.
-- Design **one short illustrated guidebook**.
-- Build a responsive QR-linked website for **two scenarios**.
-- Attempt a working image/description identification prototype for **2–3 predefined symbols**, with an explicit manual-selection fallback if unreliable or infeasible.
-- Do not claim to diagnose faults or assess whether a vehicle is safe to drive.
+I'll customize a compact organizer with a tire-pressure gauge, flashlight, sleeve for sample vehicle documents, and illustrated guidebook. A QR code will link to a mobile-friendly website covering two situations:
 
-## Testing
-Recruit approximately 5–8 consenting participants; track tool retrieval, task accuracy, correctly chosen next steps, observed confusion, and confidence before/after. Verify automotive responses against authoritative instructions and vehicle-specific manuals. Use safely parked or simulated settings.
+- **Checking tire pressure:** Finding the gauge, locating recommended pressure, and taking a reading.
+- **Understanding dashboard lights:** Recognizing selected symbols and identifying appropriate next steps.
 
-## AI across the journey
-Research assistance, alternative layouts, design visualization, website implementation/debugging, carefully checked symbol identification, test-plan drafting, and meaningful image/video support for the founder documentary. Log prompts, outputs, verification, choices, and evidence.
+I'll also prototype an AI assistant where users can upload a photo or describe what they're seeing. I'll limit it to two or three dashboard symbols, with user confirmation and manual identification available.
 
-## Visual direction
-Bright, playful, slightly cheeky, with clear high-contrast instructions. Subtle bear and paw imagery as recognizable accents, never replacing serious guidance.
+The smallest viable version is the organizer, printed guide, and functional QR-linked website. AI photo recognition is experimental, not essential to the guide. I'm not building a complete emergency kit or mechanical diagnostic system.
 
-## Unknowns to investigate
-Case dimensions, booklet format, sources for each warning, hosted API feasibility and privacy, user needs, prototype cost, and success thresholds.
+### Scope, Resources, Risks & Timeline
+
+I'm working individually, handling research, design, prototyping, testing, website development, and documentary production.
+
+My resources include an organizer, automotive tools, printed materials, GitHub, Notion, ChatGPT for research and design, and potentially Claude for coding.
+
+My main unknowns are whether users understand the instructions, whether the physical and digital pieces work well together, and whether AI can identify symbols reliably. I'll verify automotive guidance, use safely parked or simulated tests, protect participant information, and avoid presenting AI responses as diagnoses.
+
+**Timeline:** October 11 concept; October 25 early prototype; November 8 functional build and testing; November 22 two evidence-based revisions; December 1 documentary and sizzle rough cuts; December 4 final submission.
+
+### Testing, Success Criteria & Evidence
+
+I'll aim to recruit five to eight women with limited car-maintenance experience. I'll observe whether they can find tools or guidance within 30 seconds, correctly follow tire-pressure steps, and choose safe next actions for selected warnings.
+
+My target is at least 80% correct completion of each task. I'll record requests for help, mistakes, and confidence before and after use.
+
+Evidence will include timed observations, checklists, participant feedback, and photos or recordings where appropriate and with permission. Accurate task completion with little assistance will indicate progress. Repeated confusion, unsafe decisions, or inaccurate AI responses will signal a need to revise or remove features. I'll document at least two changes and retest where possible.
+
+### Documentary, AI & Contribution Plan
+
+My documentary will explore three questions: Can playful design make car care more approachable? Does guidance build capability rather than just confidence? And can AI help without creating false reassurance?
+
+I'll capture my starting problem, sketches, physical and digital builds, challenges, testing, and revisions.
+
+I'll use AI for product-design exploration, website development, and experimental photo identification, checking outputs rather than accepting them automatically. I'll also use and label AI-assisted images and video production.
+
+I'll maintain a dated project journal and source index in Notion, linked to GitHub, recording my contributions, AI tools and outputs evaluated, decisions, and supporting evidence. I'll store dated footage privately and link it to my journal.
