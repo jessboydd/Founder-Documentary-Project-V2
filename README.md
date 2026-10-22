@@ -27,9 +27,9 @@ A colorful, beginner-friendly car-care kit designed to help women feel more prep
 ## Files
 - `01-project/`: creative brief, journal, AI-use log
 - `02-research/`: sources and de-identified interviews
-- `03-design/`: sketches, branding, guidebook
+- `03-design/`: sketches, branding (incl. `branding/design-system/`), guidebook, `mockups/`
 - `04-testing/`: test plan and eventual results
 - `05-documentary/`: footage index; keep raw recordings in private storage
-- `website/`: QR-linked mobile guide prototype
+- `website/`: QR-linked mobile guide prototype and the "Ask the Bear" chat prototype (see `website/README.md`)
 
-**Current status:** Concept stage; no user-test outcomes or working AI feature have been established.
+**Current status:** Design system draft, concept mockups and a first AI chat prototype exist (October 13). The prototype has not been reviewed by an expert or tested with users, so no user-test outcomes have been established.
