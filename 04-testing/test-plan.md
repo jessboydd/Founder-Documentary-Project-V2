@@ -28,3 +28,6 @@ Use simulated/photos of selected warnings. Observe how users locate guidance, de
 **Retest evidence:**
 
 Keep tasks safe and simulated; avoid live roadside testing. Photo identification is not mechanical diagnosis.
+
+## Materials
+Printable scenario cards, answer key and score sheets: `test-kit/` (draft, not yet piloted).
