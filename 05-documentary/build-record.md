@@ -84,7 +84,11 @@ The Claude links are private to Jessica until shared.
 
 - Size test result: **3.5 × 5 in chosen**, because it was easier to read. Body text runs about 10.5pt. Two spreads fit on each side of a letter sheet, so the 16 pages print on 2 sheets, double-sided.
 
+- Content approved by Jessica (with one change: page 3 now asks for the insurance company and whether the card is in the kit, glove box or phone).
+- Step 3, visual prototype: all 16 pages designed at 3.5 × 5 in on the booklet canvas, laid out as reading spreads. Section edge tabs sit in thirds (top = Lights, middle = Checks, bottom = Ask the Bear) so they read on the closed booklet's edge. QR code is a placeholder until the final link is chosen.
+
 **Still to do**
+- Step 4: print-ready file (pages arranged for folding and stapling, with bleed for edge tabs and covers).
 - Work through the verification checklist before the visual prototype is final.
 - Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
 
