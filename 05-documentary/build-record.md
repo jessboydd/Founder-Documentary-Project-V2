@@ -92,7 +92,13 @@ The Claude links are private to Jessica until shared.
 
 **Update · all 16 pages redone in the v3 style**
 - Every page now uses the approved flat drawings and the simple bold bear (Kit Bear image no longer used inside the booklet).
-- Shared details: short orange bar under each heading; colored edge tabs (Lights plum, Checks lavender, Ask the Bear orange) so sections can be found by thumb.
+- Shared details: colored edge tabs so sections can be found by thumb.
+
+**Update · tabs chosen, heading bar dropped**
+- Removed the short orange bar under headings on every page.
+- Compared three tab styles on the Tire talk / Check it spread: A labeled side tab, B thumb index showing all three sections, C corner tab with the page number. Chose A: easiest to read, and it works with the booklet closed.
+- Tabs on pp. 4–15 now carry the section name (Lights · Checks · Ask the bear) at a different height per section. Checks moved to darker purple (#6B44C2) because the old lavender tab vanished on lavender pages.
+- Print note: edge tabs need trimmed sheets to reach the paper edge; a home printer leaves a white margin.
 - Fit checks at actual size: tightened Tire talk (p. 10) and the oil set-up page (p. 13) so nothing gets cut off.
 
 **Still to do**
