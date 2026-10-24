@@ -110,6 +110,12 @@ The Claude links are private to Jessica until shared.
 - Adding: ABS, traction/stability control (flashing vs. steady), airbag (SRS), maintenance reminder shown beside the oil pressure light, low fuel, seatbelt and door-open lights.
 - Adding: cold-weather note for the low tire pressure light; on p. 3, where roadside help comes from (insurance, car maker, other) and whether the car has a spare, an inflator kit or neither.
 
+**Update · booklet grows to 20 pages**
+- The six new lights didn't fit 16 pages at a readable size, so the booklet went to 20 (stapled booklets need multiples of 4).
+- New pages: Check soon split over pp. 7–9 (check engine, low tire pressure with a cold-weather note, ABS, traction/stability, airbag, low fuel); p. 10 "Oil light or wrench?" puts the red oil pressure light beside the service reminder; p. 11 "Just so you know" adds seatbelt and door-open lights; p. 19 is a fill-in light log (date, light, what I did).
+- Page 3 now asks where roadside help comes from and whether the car has a spare, an inflator kit or neither; p. 15 points flat tires to the spare or inflator kit.
+- All cross-references renumbered; the print file will need 5 folded sheets.
+
 **Parked for later**
 - After a minor crash: get safe, take photos, swap insurance info. Outside the lights-and-checks scope; could become its own card in the kit.
 - Dead battery / jump start. Same scope question.
