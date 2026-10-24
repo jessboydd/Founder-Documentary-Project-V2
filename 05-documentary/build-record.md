@@ -112,9 +112,14 @@ The Claude links are private to Jessica until shared.
 
 **Update · booklet grows to 20 pages**
 - The six new lights didn't fit 16 pages at a readable size, so the booklet went to 20 (stapled booklets need multiples of 4).
-- New pages: Check soon split over pp. 7–9 (check engine, low tire pressure with a cold-weather note, ABS, traction/stability, airbag, low fuel); p. 10 "Oil light or wrench?" puts the red oil pressure light beside the service reminder; p. 11 "Just so you know" adds seatbelt and door-open lights; p. 19 is a fill-in light log (date, light, what I did).
+- New pages: Check soon split over pp. 7–9 (check engine, low tire pressure with a cold-weather note, ABS, traction/stability, airbag, low fuel); p. 10 "Oil light or wrench?" puts the red oil pressure light beside the service reminder; p. 11 "Just so you know" adds seatbelt and door-open lights; p. 19 was briefly a fill-in light log (later replaced).
 - Page 3 now asks where roadside help comes from and whether the car has a spare, an inflator kit or neither; p. 15 points flat tires to the spare or inflator kit.
 - All cross-references renumbered; the print file will need 5 folded sheets.
+
+**Update · readability pass**
+- Page 4: page references moved under each color's description so they no longer spill out of the cards.
+- Cut the repeated "see p. 3" reminders; kept the three that matter in the moment (write your number down, roadside help when pulled over, which oil to add).
+- Dropped the light log. Page 19 is now "What I can and can't do": the bear's two lists as stacked rows with check and x marks, easier to scan than side-by-side columns. Page 18 keeps the QR code and notes.
 
 **Parked for later**
 - After a minor crash: get safe, take photos, swap insurance info. Outside the lights-and-checks scope; could become its own card in the kit.
