@@ -106,6 +106,15 @@ The Claude links are private to Jessica until shared.
 - Work through the verification checklist before the visual prototype is final.
 - Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
 
+**Content review · lights and details to add**
+- Adding: ABS, traction/stability control (flashing vs. steady), airbag (SRS), maintenance reminder shown beside the oil pressure light, low fuel, seatbelt and door-open lights.
+- Adding: cold-weather note for the low tire pressure light; on p. 3, where roadside help comes from (insurance, car maker, other) and whether the car has a spare, an inflator kit or neither.
+
+**Parked for later**
+- After a minor crash: get safe, take photos, swap insurance info. Outside the lights-and-checks scope; could become its own card in the kit.
+- Dead battery / jump start. Same scope question.
+- Stick-on or die-cut tabs that stick out from the page (stick-on first, for user testing).
+
 **Documentary moments**
 - Cutting out the two size tests and trying them in the organizer and a dim car.
 - Paging through the content doc with the verify flags visible: designing for safety, not just looks.
