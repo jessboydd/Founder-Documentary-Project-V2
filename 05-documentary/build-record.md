@@ -87,7 +87,11 @@ The Claude links are private to Jessica until shared.
 - Content approved by Jessica (with one change: page 3 now asks for the insurance company and whether the card is in the kit, glove box or phone).
 - Step 3, visual prototype: all 16 pages designed at 3.5 × 5 in on the booklet canvas, laid out as reading spreads. Section edge tabs sit in thirds (top = Lights, middle = Checks, bottom = Ask the Bear) so they read on the closed booklet's edge. QR code is a placeholder until the final link is chosen.
 
+- Illustration rework (on the booklet canvas, "Illustration study" page). v1: outlined drawings in one style. v2: bold flat style based on Jessica's inspiration image (bold plum bear, solid shapes, orange "spark" marks, orange bar under headings, lavender openers and cream step pages); its made-up specs (e.g. "32–36 PSI") were deliberately left out. v3: richer flat object drawings with tints, highlights and small details. Jessica asked for less detail on the bear, so it went back to a simple bold head with a paw and one prop in four poses (hello, hmm, proud, ask me). Approved "for now" on Oct 24.
+- Fixed three text-wrapping bugs on pages 2, 4 and 8.
+
 **Still to do**
+- Apply the v3 drawings and simple bear to all 16 pages.
 - Step 4: print-ready file (pages arranged for folding and stapling, with bleed for edge tabs and covers).
 - Work through the verification checklist before the visual prototype is final.
 - Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
