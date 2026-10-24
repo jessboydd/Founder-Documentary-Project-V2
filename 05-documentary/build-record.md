@@ -12,7 +12,8 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Concept screens (logo, organizer, guidebook, mobile, photo + chat) | Claude canvas "Bear With Me Concepts" · [link](https://claude.ai/artifact/STaYezWr8Crm2JsXdh4bNm) | `03-design/mockups/` |
 | Ask the Bear prototype | Claude artifact "Ask the Bear" · [link](https://claude.ai/artifact/DZjETc7jFkLCRCRYVTdh5R) | `website/ask-the-bear.html` |
 | Usability test kit | Claude canvas "Bear With Me Test Kit" · [link](https://claude.ai/artifact/1pVPv8tQTdVwPpbx6KRija) | `04-testing/test-kit/` |
-| Pocket booklet | In progress (format and structure stage) | `03-design/guidebook/` when built |
+| Pocket booklet: page-by-page content and verify checklist | Claude doc "Bear With Me Booklet Content" · [link](https://claude.ai/artifact/BfE1PgxFJ8NZgHebtUsmmn) | `03-design/guidebook/` when approved |
+| Pocket booklet: size tests, then the visual prototype | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 
 The Claude links are private to Jessica until shared.
 
@@ -66,9 +67,29 @@ The Claude links are private to Jessica until shared.
 
 ## 2026-10-24 · Pocket booklet: format and structure
 
-**Started**
-- Brief for a pocket booklet (about 3 × 4 in) covering dashboard lights and basic checks, with a QR code to the bear. Approach agreed in four steps: format and structure → content and layout → visual prototype → print-ready file.
-- First step in progress: size, binding, page count, navigation and design direction. Decisions will be added here once Jessica approves them.
+**Made**
+- Brief for a pocket booklet covering dashboard lights and basic checks, with a QR code to the bear. Approach in four steps: format and structure → content and layout → visual prototype → print-ready file.
+- Step 1, format and structure: proposed size, binding, a 16-page plan, navigation, voice and QR placement.
+- Step 2, content: page-by-page copy for all 16 pages with layout notes and verify flags, plus a verification checklist (Claude doc).
+- Two printable size-test sheets: page 11 (Check It) and page 5 (Stop Soon), each at 3 × 4 in and 3.5 × 5 in, with trim marks and a 1-inch check bar.
+
+**Decisions (Jessica, 2026-10-24) and why**
+- Size: 3 × 4 in, tested against 3.5 × 5 in before finalizing. The real limit is reading it stressed in a dim car.
+- Binding: stapled booklet, 16 pages (4 sheets folded). Feels like a real product and is easy to print and assemble at home.
+- Seven dashboard lights: brake warning added because it's common and safety-critical.
+- Fill-in "My car's numbers" page kept, so the owner copies their tire pressure and oil type once while calm.
+- Colored edge tabs by section (plum Lights, lavender Checks, orange Ask the Bear); red/amber/green stay reserved for urgency.
+- QR code has one main home (p. 15) plus a small repeat on the back cover, so the booklet works on its own.
+- No bear on stop-soon or pull-over pages, matching the app.
+
+**Still to do**
+- Print and run the size test; pick a size.
+- Work through the verification checklist before the visual prototype is final.
+- Organizer pocket must be resized for the smaller booklet (earlier sketches assumed 4.25 × 5.5 in).
+
+**Documentary moments**
+- Cutting out the two size tests and trying them in the organizer and a dim car.
+- Paging through the content doc with the verify flags visible: designing for safety, not just looks.
 
 ---
 
