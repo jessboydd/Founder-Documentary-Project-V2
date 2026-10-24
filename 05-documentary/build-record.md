@@ -82,10 +82,11 @@ The Claude links are private to Jessica until shared.
 - QR code has one main home (p. 15) plus a small repeat on the back cover, so the booklet works on its own.
 - No bear on stop-soon or pull-over pages, matching the app.
 
+- Size test result: **3.5 × 5 in chosen**, because it was easier to read. Body text runs about 10.5pt. Two spreads fit on each side of a letter sheet, so the 16 pages print on 2 sheets, double-sided.
+
 **Still to do**
-- Print and run the size test; pick a size.
 - Work through the verification checklist before the visual prototype is final.
-- Organizer pocket must be resized for the smaller booklet (earlier sketches assumed 4.25 × 5.5 in).
+- Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
 
 **Documentary moments**
 - Cutting out the two size tests and trying them in the organizer and a dim car.
