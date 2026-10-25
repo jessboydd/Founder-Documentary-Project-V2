@@ -14,6 +14,7 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Usability test kit | Claude canvas "Bear With Me Test Kit" · [link](https://claude.ai/artifact/1pVPv8tQTdVwPpbx6KRija) | `04-testing/test-kit/` |
 | Pocket booklet: page-by-page content and verify checklist | Claude doc "Bear With Me Booklet Content" · [link](https://claude.ai/artifact/BfE1PgxFJ8NZgHebtUsmmn) | `03-design/guidebook/` when approved |
 | Pocket booklet: size tests, then the visual prototype | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
+| Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
 
 The Claude links are private to Jessica until shared.
 
@@ -102,6 +103,7 @@ The Claude links are private to Jessica until shared.
 - Fit checks at actual size: tightened Tire talk (p. 10) and the oil set-up page (p. 13) so nothing gets cut off.
 
 **Still to do**
+- Build the standalone Ask the Bear app (no Claude account needed) and point the forwarding page at it.
 - Step 4: print-ready file (pages arranged for folding and stapling, with bleed for edge tabs and covers).
 - Work through the verification checklist before the visual prototype is final.
 - Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
@@ -120,6 +122,12 @@ The Claude links are private to Jessica until shared.
 - Page 4: page references moved under each color's description so they no longer spill out of the cards.
 - Cut the repeated "see p. 3" reminders; kept the three that matter in the moment (write your number down, roadside help when pulled over, which oil to add).
 - Dropped the light log. Page 19 is now "What I can and can't do": the bear's two lists as stacked rows with check and x marks, easier to scan than side-by-side columns. Page 18 keeps the QR code and notes.
+
+**Update · QR code and a link that never changes**
+- Chose not to point the QR straight at the Claude link: a printed code can't change, but the address it opens can. Set up a free GitHub Pages address (jessboydd.github.io/bear-with-me) that forwards to the current Ask the Bear. When the standalone app exists, only the forwarding page changes; every printed booklet keeps working.
+- Kept it in its own public repo because the project repo is private and free GitHub Pages needs a public repo.
+- Generated the QR, checked it scans to the right address, and placed it on p. 18 (with the address spelled out) and the back cover.
+- Decided against sharing a Claude login with testers (against Claude's terms, and it would expose the whole account). Plan: build the standalone Ask the Bear before user testing so testers need no account.
 
 **Parked for later**
 - After a minor crash: get safe, take photos, swap insurance info. Outside the lights-and-checks scope; could become its own card in the kit.
