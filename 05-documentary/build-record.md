@@ -104,7 +104,7 @@ The Claude links are private to Jessica until shared.
 
 **Still to do**
 - Build the standalone Ask the Bear app (no Claude account needed) and point the forwarding page at it.
-- Step 4: print-ready file (pages arranged for folding and stapling, with bleed for edge tabs and covers).
+- Print and mark up the proof; then a final print-shop file with bleed (pages arranged for folding and stapling, with bleed for edge tabs and covers).
 - Work through the verification checklist before the visual prototype is final.
 - Organizer pocket must be resized for a 3.5 × 5 in booklet (earlier sketches assumed 4.25 × 5.5 in).
 
@@ -128,6 +128,11 @@ The Claude links are private to Jessica until shared.
 - Kept it in its own public repo because the project repo is private and free GitHub Pages needs a public repo.
 - Generated the QR, checked it scans to the right address, and placed it on p. 18 (with the address spelled out) and the back cover.
 - Decided against sharing a Claude login with testers (against Claude's terms, and it would expose the whole account). Plan: build the standalone Ask the Bear before user testing so testers need no account.
+
+**Update · first print proof**
+- Made a home-printable proof: 3 letter sheets printed on both sides (flip on long edge), each cut in half to make 5 folded sheets that nest and staple into the 20-page booklet. Pages print at true size (3.5 × 5 in) with trim and fold marks; each sheet is labeled in the margin.
+- Purpose: print, read on paper, mark up edits before a final print-shop file with bleed.
+- Saved to `03-design/guidebook/Bear-With-Me-Booklet-Print-Proof.pdf`, with a spreads overview `booklet-spreads-v1.png`.
 
 **Parked for later**
 - After a minor crash: get safe, take photos, swap insurance info. Outside the lights-and-checks scope; could become its own card in the kit.
