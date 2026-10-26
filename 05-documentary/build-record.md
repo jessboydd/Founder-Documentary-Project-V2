@@ -170,6 +170,8 @@ The Claude links are private to Jessica until shared.
 **Documentary moments**
 - Snapping a real tire photo in demo mode, then the same photo with the live AI.
 
+---
+
 ## Founder decisions (booklet and app)
 
 Moments where Jessica made the call, collected Oct 25, 2026. Useful as documentary narration: what was decided, and what it shows.
