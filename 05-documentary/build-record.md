@@ -152,6 +152,9 @@ The Claude links are private to Jessica until shared.
 - **Server piece for going live:** keeps the API key private, writes the bear's rules on the server so nobody can rewrite them from the browser, checks a tester code, limits photo size, and shrinks phone photos before sending.
 - The chat avatar is now the simple bold bear from the booklet; Kit Bear stays as the brand mark. The stop banner now points to page 3 of the booklet for roadside help.
 
+- **Update:** the app's light lookup now has all 14 booklet lights, grouped by color with the booklet's symbols.
+- **Update:** added My car's numbers to the app, the booklet's page 3 on the phone. It's saved on the phone only. The bear uses the car, tire and oil numbers in its answers; phone numbers and insurance never leave the phone. A saved roadside number adds a Call button to the home screen and the red stop box.
+
 **Decisions**
 - Build first, accounts later: demo mode lets the screens be tested before paying for any AI.
 - Host the live version on Vercel (free tier) when ready; GitHub Pages can't keep a key secret.
@@ -160,7 +163,7 @@ The Claude links are private to Jessica until shared.
 **Still to do**
 - Merge the pull request and try the demo on a phone.
 - When ready: Anthropic API account, Vercel account, then point the QR forwarding page at the live app.
-- Expand the app's light lookup from 6 lights to match the booklet's 14 (after the facts are verified).
+- Verify the facts for the 8 newly added lights (brake, ABS, traction, airbag, low fuel, service reminder, seatbelt, door open) before testing.
 
 **Documentary moments**
 - Snapping a real tire photo in demo mode, then the same photo with the live AI.
