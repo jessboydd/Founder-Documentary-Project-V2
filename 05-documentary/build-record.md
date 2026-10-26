@@ -15,6 +15,7 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Pocket booklet: page-by-page content and verify checklist | Claude doc "Bear With Me Booklet Content" · [link](https://claude.ai/artifact/BfE1PgxFJ8NZgHebtUsmmn) | `03-design/guidebook/` when approved |
 | Pocket booklet: size tests, then the visual prototype | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 | Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
+| Standalone Ask the Bear app (no Claude account needed) | Public repo `jessboydd/bear-with-me`, `app/` and `api/` · demo at https://jessboydd.github.io/bear-with-me/app/ once merged | Same repo |
 
 The Claude links are private to Jessica until shared.
 
@@ -160,3 +161,24 @@ The Claude links are private to Jessica until shared.
 
 **Documentary moments**
 -
+
+## 2026-10-25 · Ask the Bear leaves Claude
+
+**Made**
+- Moved Ask the Bear out of the Claude artifact into its own code in the `bear-with-me` repo, so testers won't need a Claude account (sharing a Claude login was ruled out).
+- **Demo mode:** with no AI connected, the app gives sample answers. The camera, photo upload, chat, urgency chips, stop banner and light lookup can all be tried on a phone now.
+- **Server piece for going live:** keeps the API key private, writes the bear's rules on the server so nobody can rewrite them from the browser, checks a tester code, limits photo size, and shrinks phone photos before sending.
+- The chat avatar is now the simple bold bear from the booklet; Kit Bear stays as the brand mark. The stop banner now points to page 3 of the booklet for roadside help.
+
+**Decisions**
+- Build first, accounts later: demo mode lets the screens be tested before paying for any AI.
+- Host the live version on Vercel (free tier) when ready; GitHub Pages can't keep a key secret.
+- A tester code plus a monthly spending limit protects against a public link running up a bill.
+
+**Still to do**
+- Merge the pull request and try the demo on a phone.
+- When ready: Anthropic API account, Vercel account, then point the QR forwarding page at the live app.
+- Expand the app's light lookup from 6 lights to match the booklet's 14 (after the facts are verified).
+
+**Documentary moments**
+- Snapping a real tire photo in demo mode, then the same photo with the live AI.
