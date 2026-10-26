@@ -144,24 +144,6 @@ The Claude links are private to Jessica until shared.
 - Cutting out the two size tests and trying them in the organizer and a dim car.
 - Paging through the content doc with the verify flags visible: designing for safety, not just looks.
 
----
-
-## Template for the next entry
-
-**Date · title**
-
-**Made**
--
-
-**Decisions and why**
--
-
-**Learned / still to do**
--
-
-**Documentary moments**
--
-
 ## 2026-10-25 · Ask the Bear leaves Claude
 
 **Made**
@@ -182,3 +164,21 @@ The Claude links are private to Jessica until shared.
 
 **Documentary moments**
 - Snapping a real tire photo in demo mode, then the same photo with the live AI.
+
+---
+
+## Template for the next entry
+
+**Date · title**
+
+**Made**
+-
+
+**Decisions and why**
+-
+
+**Learned / still to do**
+-
+
+**Documentary moments**
+-
