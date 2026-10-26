@@ -96,6 +96,7 @@ body{margin:0}
 .cartext{display:flex;flex-direction:column;flex:1;min-width:0}
 .cartext b{font:800 17px/1.2 var(--display);text-transform:uppercase}
 a.btn{text-decoration:none;color:var(--ink)}
+.btn.call{background:var(--white);border-color:var(--stop);color:var(--stop)}
 .callbtn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;border-radius:14px;background:var(--white);color:var(--stop);font:800 17px/1 var(--display);text-transform:uppercase;text-decoration:none}
 .callbtn svg{width:22px;height:22px}
 .carsec{background:var(--white);border-radius:20px;padding:12px 14px;display:flex;flex-direction:column;gap:10px}
@@ -115,8 +116,8 @@ a.btn{text-decoration:none;color:var(--ink)}
 <input type="file" id="upload" accept="image/*" hidden>
 
 <script>
-/* Ask the Bear, Claude version. Built from the standalone app in jessboydd/bear-with-me
-   (app/app.js, app/lights.js, api/chat.js) so both stay the same. */
+/* Ask the Bear, Claude version. Built by tools/build-claude-version.py from the
+   standalone app in jessboydd/bear-with-me, so both stay the same. */
 const LIGHTS = [
   { id: "oil_pressure", name: "Oil pressure", level: "stop",
     looks: "An old-style oil can with a drip coming out of the spout",
@@ -246,7 +247,26 @@ const store = {
 /* ---------- My car's numbers (saved on this phone only) ---------- */
 const CAR_KEY = "bearCar";
 let car = (() => { try { return JSON.parse(store.get(CAR_KEY) || "{}") || {}; } catch { return {}; } })();
-const saveCar = () => store.set(CAR_KEY, JSON.stringify(car));
+let carDoc = null, carTimer = 0;
+function saveCar() {
+  store.set(CAR_KEY, JSON.stringify(car));
+  if (carDoc) { clearTimeout(carTimer); carTimer = setTimeout(() => carDoc.set({ ...car }).catch(() => {}), 600); }
+}
+// Inside Claude, browser storage may not last, so the numbers are also kept in
+// the viewer's own private Claude storage. Outside Claude this does nothing.
+async function connectCarStore() {
+  try {
+    const use = window.claude?.use;
+    if (!use) return;
+    const [db, user] = await Promise.all([use("db"), use("user")]);
+    const uid = db && user ? await user.id() : null;
+    if (!uid) return;
+    carDoc = db.doc("data/users/" + uid + "/car");
+    const snap = await carDoc.get();
+    if (snap.exists) { car = { ...snap.data() }; store.set(CAR_KEY, JSON.stringify(car)); if (st.screen !== "car") render(); }
+    else if (Object.keys(car).length) carDoc.set({ ...car }).catch(() => {});
+  } catch { carDoc = null; }
+}
 const telHref = n => "tel:" + String(n).replace(/[^0-9+]/g, "");
 function carSummary() {
   const bits = [];
@@ -269,7 +289,7 @@ function home() {
   return `
   ${demoNote()}
   <div class="top" style="justify-content:space-between">
-    <div class="brand">${KIT_BEAR}<span>Bear With Me</span></div>
+    <div class="brand">${GUIDE_BEAR}<span>Bear With Me</span></div>
     <div class="checker" aria-hidden="true">${Array.from({ length: 12 }, (_, i) => `<i class="${(i + Math.floor(i / 6)) % 2 ? "" : "k"}"></i>`).join("")}</div>
   </div>
   <h1>Something going on with your car?</h1>
@@ -280,6 +300,7 @@ function home() {
     <button class="btn" id="up">${I.img}Upload</button>
   </div>
   <p class="hint" style="margin-top:-6px">Only when you're parked. Never while driving.</p>
+  ${car.roadside ? `<a class="btn call" href="${telHref(car.roadside)}">${I.phone}Call roadside help</a>` : ""}
   <form class="describe" id="descForm">
     <label class="sr" for="desc">Describe what's happening</label>
     <input id="desc" type="text" placeholder="Tell me what's happening" autocomplete="off">
@@ -295,7 +316,6 @@ function home() {
     <span class="cartext"><b>My car's numbers</b><span class="small muted">${esc(carSummary() || "Tire pressure, oil type, roadside help. Fill it in while things are calm.")}</span></span>
     <span style="width:22px;height:22px;transform:rotate(-90deg)">${I.chev}</span>
   </button>
-  ${car.roadside ? `<a class="btn" href="${telHref(car.roadside)}">${I.phone}Call roadside help</a>` : ""}
   <details class="lightsbox">
     <summary><span>Look up a dashboard light</span><span style="width:22px;height:22px">${I.chev}</span></summary>
     ${["stop","soon","info"].map(lv => `
@@ -536,7 +556,7 @@ async function sampleReply(bot, pic) {
     const el = document.getElementById("chatlog")?.lastElementChild;
     if (el) { el.textContent = v; el.classList.remove("think"); window.scrollTo(0, document.body.scrollHeight); }
   } };
-  if (pic) opts.images = pic.file;
+  if (pic) opts.images = [pic.file];
   const { text: full } = await sample(input, opts);
   return parse(full);
 }
@@ -646,4 +666,5 @@ render();
   try { sample = await window.claude?.use?.("sample") ?? null; } catch { sample = null; }
   DEMO = !sample; render();
 })();
+connectCarStore();
 </script>
