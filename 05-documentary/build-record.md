@@ -155,6 +155,8 @@ The Claude links are private to Jessica until shared.
 - **Update:** the app's light lookup now has all 14 booklet lights, grouped by color with the booklet's symbols.
 - **Update:** added My car's numbers to the app, the booklet's page 3 on the phone. It's saved on the phone only. The bear uses the car, tire and oil numbers in its answers; phone numbers and insurance never leave the phone. A saved roadside number adds a Call button to the home screen and the red stop box.
 
+- **Update:** brought the Claude version of Ask the Bear up to date from the new app's code (14 lights, My car's numbers, Call buttons, booklet bear). It still uses Claude's AI for the chat. Photos only work where Claude allows them, which is the reason the standalone app exists. Without Claude's AI, it falls back to demo answers.
+
 **Decisions**
 - Build first, accounts later: demo mode lets the screens be tested before paying for any AI.
 - Host the live version on Vercel (free tier) when ready; GitHub Pages can't keep a key secret.
