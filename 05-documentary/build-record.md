@@ -172,6 +172,42 @@ The Claude links are private to Jessica until shared.
 
 ---
 
+## Founder decisions (booklet and app)
+
+Moments where Jessica made the call, collected Oct 25, 2026. Useful as documentary narration: what was decided, and what it shows.
+
+**Designing for the real moment of use**
+- **The insurance card:** page 3 asks which company and where the card is (kit, glove box or phone). In a stressful moment, knowing where something is matters as much as having it.
+- **The no-signal question:** asking whether the app works on a back road with weak service made the printed booklet the no-signal backup, not just a companion to the app.
+- **Ask the Bear's scope:** widened from dashboard lights to any car problem, because people don't arrive with tidy categories.
+
+**Testing before committing**
+- **Size:** tried 3 × 4 against 3.5 × 5 before deciding; chose 3.5 × 5 because it was easier to read.
+- **The print proof:** printed the booklet to read and mark up on paper before any final file.
+- **Her own phone:** testing the app herself caught two real bugs, the photo error and the missing Call buttons. Tracking down the photo error showed the Claude version had never asked for photo permission.
+
+**Knowing when to push and when to stop**
+- **The drawings:** "can still be visually improved," then an inspiration image, then "the bear does not need that much detail," then "that is good for now." Pushed for quality, then knew when more polish would hurt.
+- **Tabs:** explored three styles and chose the labeled side tab. Paused tabs that stick out rather than adding cost and complexity now.
+
+**Editing out, not just adding**
+- **The readability pass:** dropped the short orange heading bars, cut the repeated "see p. 3" reminders, and removed the light log because it wasn't needed.
+- **The can/can't lists:** moved into stacked rows so they're easier to scan.
+
+**Controlling scope**
+- **New content:** asked whether important lights were missing, added six, and parked the fender-bender and dead-battery pages for later: real needs, but outside this booklet's job.
+- **Page count:** chose 20 pages over squeezing everything into 16 at a smaller text size, putting readability ahead of thinness.
+- **Building order:** "build first, accounts later," testing the app in demo mode before paying for any AI.
+
+**Changing course with new information**
+- **Tester access:** planned to give testers her Claude login; on learning that breaks Claude's terms and would expose her account, switched to building the standalone app.
+- **Her portfolio domain:** kept this project off it, separate from her personal brand.
+
+**Consistency across the product**
+- **Matching the booklet:** asked for the app to have the same 14 lights and the same "My car's numbers" as the booklet, and the same bear on the home screen as in the chat. The booklet and the app now read as one system.
+
+---
+
 ## Template for the next entry
 
 **Date · title**
