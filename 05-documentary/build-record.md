@@ -13,7 +13,7 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Ask the Bear prototype | Claude artifact "Ask the Bear" · [link](https://claude.ai/artifact/DZjETc7jFkLCRCRYVTdh5R) | `website/ask-the-bear.html` |
 | Usability test kit | Claude canvas "Bear With Me Test Kit" · [link](https://claude.ai/artifact/1pVPv8tQTdVwPpbx6KRija) | `04-testing/test-kit/` |
 | Pocket booklet: page-by-page content and verify checklist | Claude doc "Bear With Me Booklet Content" · [link](https://claude.ai/artifact/BfE1PgxFJ8NZgHebtUsmmn) | `03-design/guidebook/` when approved |
-| Pocket booklet: size tests, then the visual prototype | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
+| Pocket booklet: size tests, then the visual prototype (now 4 × 5 in) | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 | Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
 | Standalone Ask the Bear app (no Claude account needed) | Public repo `jessboydd/bear-with-me`, `app/` and `api/` · demo at https://jessboydd.github.io/bear-with-me/app/ once merged | Same repo |
 
@@ -172,6 +172,31 @@ The Claude links are private to Jessica until shared.
 
 ---
 
+## 2026-10-30 · Safety check against the RAV4 manual
+
+**Made**
+- Reviewed the booklet and app against the owner's manual for the test car, a 2017 Toyota RAV4 (warning lights pp. 78–82 and 615–634, overheating pp. 662–663, oil pp. 554–557, tires p. 675), plus photos of its door sticker, dashboard light check and dipstick.
+- **Safety fixes:** the booklet was softer than Toyota in places. Battery/charging and ABS now say pull over and call for help; low tire pressure says stop somewhere safe soon; check engine and airbag say get it checked right away; overheating turns off the A/C first.
+- **New:** power steering (red on the test car), and the triangle ! with screen messages, which is how this car shows oil pressure, overheating and charging problems.
+- **US symbols:** the words BRAKE and ABS, and the engine with CHECK, matching the test car's dashboard.
+- **Tires and oil:** a tip to read the number ending in PSI (the real sticker also shows kPa, French and the tire size); the spare can differ (60 vs. 33 on the test car); check monthly, including the spare; "within 1–2 PSI" became "at your number"; wait 5+ minutes for a warm oil check; add oil when below or near the low mark; dipstick marks drawn as dots.
+- **Layout (Jessica's calls):** My car's numbers moved to page 2 and Start here to page 3; amber lights that still mean stop keep their color with a red STOP callout; power steering got its own half page; page 10 no longer repeats oil pressure; page 18's notes became a roadside phone line.
+- **Size:** 4 × 5 in, with the extra half inch on the spine side for binding room. New print proof: `03-design/guidebook/Bear-With-Me-Booklet-Print-Proof-4x5-v2.pdf`.
+- **App:** same changes, with a red STOP tag on amber lights that mean stop (pull request in `bear-with-me`). Content doc and its verification checklist updated: 17 facts confirmed from the manual, 5 still need a source.
+
+**Decisions**
+- Keep the booklet generic (not a RAV4 manual), and take the stricter advice wherever cars differ.
+- Keep oil type generic, since not every tester drives a Toyota.
+
+**Still to verify**
+- Flashing check engine "treat like red"; oil color meanings; staying in the car vs. getting out on a busy road; what counts as "cold" tires; QR scan at printed size.
+
+**Documentary moments**
+- Turning the key to ON in the RAV4 and photographing every light at once: the manual's system check, used as research.
+- Finding that the booklet said "head somewhere safe" where Toyota says "stop immediately."
+
+---
+
 ## Founder decisions (booklet and app)
 
 Moments where Jessica made the call, collected Oct 25, 2026. Useful as documentary narration: what was decided, and what it shows.
@@ -202,6 +227,10 @@ Moments where Jessica made the call, collected Oct 25, 2026. Useful as documenta
 **Changing course with new information**
 - **Tester access:** planned to give testers her Claude login; on learning that breaks Claude's terms and would expose her account, switched to building the standalone app.
 - **Her portfolio domain:** kept this project off it, separate from her personal brand.
+
+**Checking against the real car**
+- **The manual review:** used her own 2017 RAV4's manual and photos (door sticker, dashboard light check, dipstick) to test the booklet, then chose to keep it generic while adopting the stricter "stop" advice.
+- **Spine room:** widened the booklet to 4 × 5 in after printing, putting the extra half inch at the staples.
 
 **Consistency across the product**
 - **Matching the booklet:** asked for the app to have the same 14 lights and the same "My car's numbers" as the booklet, and the same bear on the home screen as in the chat. The booklet and the app now read as one system.
