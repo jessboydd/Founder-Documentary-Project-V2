@@ -16,6 +16,7 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Pocket booklet: size tests, then the visual prototype (now 4 × 5 in) | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 | Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
 | Standalone Ask the Bear app (no Claude account needed) | Public repo `jessboydd/bear-with-me`, `app/` and `api/` · demo at https://jessboydd.github.io/bear-with-me/app/ once merged | Same repo |
+| Session records (prompts, testing, iteration, Jessica's judgment, conversation) | — | `05-documentary/session-records/` (Oct 13–25 and Oct 30–31 PDFs) |
 
 The Claude links are private to Jessica until shared.
 
@@ -126,7 +127,7 @@ The Claude links are private to Jessica until shared.
 
 **Update · QR code and a link that never changes**
 - Chose not to point the QR straight at the Claude link: a printed code can't change, but the address it opens can. Set up a free GitHub Pages address (jessboydd.github.io/bear-with-me) that forwards to the current Ask the Bear. When the standalone app exists, only the forwarding page changes; every printed booklet keeps working.
-- Kept it in its own public repo because the project repo is private and free GitHub Pages needs a public repo.
+- Kept it in its own public repo, separate from the project repo, so the QR address stays simple and the app code lives on its own. (Note, Oct 31: the project repo is also public; Jessica chose to keep it that way for now.)
 - Generated the QR, checked it scans to the right address, and placed it on p. 18 (with the address spelled out) and the back cover.
 - Decided against sharing a Claude login with testers (against Claude's terms, and it would expose the whole account). Plan: build the standalone Ask the Bear before user testing so testers need no account.
 
