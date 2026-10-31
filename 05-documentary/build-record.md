@@ -16,6 +16,7 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Pocket booklet: size tests, then the visual prototype (now 4 × 5 in) | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 | Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
 | Standalone Ask the Bear app (no Claude account needed) | Public repo `jessboydd/bear-with-me`, `app/` and `api/` · demo at https://jessboydd.github.io/bear-with-me/app/ once merged | Same repo |
+| Session records (prompts, testing, iteration, Jessica's judgment, conversation) | — | `05-documentary/session-records/` (Oct 13–25 and Oct 30–31 PDFs) |
 
 The Claude links are private to Jessica until shared.
 
