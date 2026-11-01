@@ -207,6 +207,9 @@ The Claude links are private to Jessica until shared.
 - QR points at the Vercel app directly instead of the GitHub Pages forwarding address. Trade-off: if the app's address ever changes, printed booklets would need new codes; the old forwarding address still works and also leads to the live app.
 - One spread per sheet side makes the proof easier to print, trim and check page pairs.
 
+**Learned**
+- First double-sided print came out slightly off between front and back, which is normal for home printers (they often shift 1–2 mm). Added 1/8 in bleed: every page's color, the edge tabs and the cover checker pattern now run past the trim marks, so a small shift gets trimmed away instead of leaving white edges.
+
 ---
 
 ## Founder decisions (booklet and app)
