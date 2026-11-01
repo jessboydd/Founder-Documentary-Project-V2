@@ -209,6 +209,7 @@ The Claude links are private to Jessica until shared.
 
 **Learned**
 - First double-sided print came out slightly off between front and back, which is normal for home printers (they often shift 1–2 mm). Added 1/8 in bleed: every page's color, the edge tabs and the cover checker pattern now run past the trim marks, so a small shift gets trimmed away instead of leaving white edges.
+- Jessica measured her printer's shift: the back side lands 1 mm to the right. The back-side pages of the proof are now moved 1 mm left to cancel it (this setting is for her printer; another printer may need a different nudge).
 
 ---
 
