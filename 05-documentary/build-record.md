@@ -195,6 +195,18 @@ The Claude links are private to Jessica until shared.
 - Turning the key to ON in the RAV4 and photographing every light at once: the manual's system check, used as research.
 - Finding that the booklet said "head somewhere safe" where Toyota says "stop immediately."
 
+## 2026-11-01 · Orange cover, back cover tidy, live app link, one spread per page
+
+**Made**
+- Front cover changed from lavender to orange (bear's wave mark switched to cream so it still shows).
+- Back cover: removed the roadside help fill-in line, so the QR code and "Ask the bear" now sit right under the 911 box. Page 18 keeps its roadside help phone line.
+- New QR code on p. 18 and the back cover, pointing straight to the live app at https://bear-with-me-xi.vercel.app/app/. Scanned from the print file at 300 dpi to confirm it opens that address. The "won't scan?" address on p. 18 updated to match.
+- New print proof with one spread per printed page (landscape letter, 10 pages, 5 sheets double-sided, flip on short edge): back + front cover, 2 | 19, 18 | 3, 4 | 17, 16 | 5, 6 | 15, 14 | 7, 8 | 13, 12 | 9, 10 | 11. Saved as `03-design/guidebook/Bear-With-Me-Booklet-Print-Proof-4x5-v3-spreads.pdf`.
+
+**Decisions (Jessica) and why**
+- QR points at the Vercel app directly instead of the GitHub Pages forwarding address. Trade-off: if the app's address ever changes, printed booklets would need new codes; the old forwarding address still works and also leads to the live app.
+- One spread per sheet side makes the proof easier to print, trim and check page pairs.
+
 ---
 
 ## Founder decisions (booklet and app)
