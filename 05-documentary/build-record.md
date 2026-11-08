@@ -211,6 +211,7 @@ The Claude links are private to Jessica until shared.
 **Learned**
 - First double-sided print came out slightly off between front and back, which is normal for home printers (they often shift 1–2 mm). Added 1/8 in bleed: every page's color, the edge tabs and the cover checker pattern now run past the trim marks, so a small shift gets trimmed away instead of leaving white edges.
 - Jessica checked her printer's shift: the back-side pages need to move 1 mm to the right to line up with the fronts. The back-side pages of the proof are now moved 1 mm right (this setting is for her printer; another printer may need a different nudge).
+- Nov 8: Jessica printed the nudged proof. Front and back were still slightly off, so instead of more nudging she printed the sides separately and glued the backs together. A workable prototype method; a print shop proof with bleed would remove the issue.
 
 ---
 
