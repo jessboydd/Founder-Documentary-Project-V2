@@ -11,7 +11,8 @@ This file is a record of work, not of results. Nothing here counts as test evide
 | Design system (colors, type, voice, logo, rules) | Claude artifact "Bear With Me" (design system) · [link](https://claude.ai/artifact/3VbBEqTjRfoa5H1yvCPA7M) | `03-design/branding/design-system/` |
 | Concept screens (logo, organizer, guidebook, mobile, photo + chat) | Claude canvas "Bear With Me Concepts" · [link](https://claude.ai/artifact/STaYezWr8Crm2JsXdh4bNm) | `03-design/mockups/` |
 | Ask the Bear prototype | Claude artifact "Ask the Bear" · [link](https://claude.ai/artifact/DZjETc7jFkLCRCRYVTdh5R) | `website/ask-the-bear.html` |
-| Usability test kit | Claude canvas "Bear With Me Test Kit" · [link](https://claude.ai/artifact/1pVPv8tQTdVwPpbx6KRija) | `04-testing/test-kit/` |
+| Usability test kit | Claude canvas "Bear With Me Test Kit" · [link](https://claude.ai/artifact/1pVPv8tQTdVwPpbx6KRija) | `04-testing/test-kit/` (final 16-page kit: `bear-with-me-test-kit-final.pdf`) |
+| Final test kit build log (Nov 1) | Claude doc "Bear With Me · Final Test Kit Build Log" · [link](https://claude.ai/artifact/GmebRyRSQ18aMTCLLvPYBK) | This file, 2026-11-01 final kit entry |
 | Pocket booklet: page-by-page content and verify checklist | Claude doc "Bear With Me Booklet Content" · [link](https://claude.ai/artifact/BfE1PgxFJ8NZgHebtUsmmn) | `03-design/guidebook/` when approved |
 | Pocket booklet: size tests, then the visual prototype (now 4 × 5 in) | Claude canvas "Bear With Me Booklet" · [link](https://claude.ai/artifact/WjvMwAVCQt9uuJjJXfAK9i) | `03-design/guidebook/` when approved |
 | Booklet QR link (stable address the printed QR opens) | Public repo `jessboydd/bear-with-me`, live at https://jessboydd.github.io/bear-with-me/ | QR files in that repo's `qr/` folder |
@@ -212,6 +213,48 @@ The Claude links are private to Jessica until shared.
 - First double-sided print came out slightly off between front and back, which is normal for home printers (they often shift 1–2 mm). Added 1/8 in bleed: every page's color, the edge tabs and the cover checker pattern now run past the trim marks, so a small shift gets trimmed away instead of leaving white edges.
 - Jessica checked her printer's shift: the back-side pages need to move 1 mm to the right to line up with the fronts. The back-side pages of the proof are now moved 1 mm right (this setting is for her printer; another printer may need a different nudge).
 - Nov 8: Jessica printed the nudged proof. Front and back were still slightly off, so instead of more nudging she printed the sides separately and glued the backs together. A workable prototype method; a print shop proof with bleed would remove the issue.
+
+---
+
+## 2026-11-01 · Final usability test kit: safety check, photo recognition back, 16 pages
+
+**Made**
+- Checked both earlier kits (the original 7 sheets from Oct 21 and the 13-page Round 1 kit) against booklet 4 × 5 v2, page by page.
+- Built the final kit on the Round 1 base: 16 letter pages, saved as `04-testing/test-kit/bear-with-me-test-kit-final.pdf`. Three versions in about 25 minutes (v1 14 pages, v2 new dipstick, v3 16 pages).
+- Photo recognition back in the test on B1–B3: each card shows the light large on a dark dashboard square, redrawn from the app's own symbol code so it photographs cleanly. Participants can snap it, type it, or use the light list.
+- New page 5, the bear's answer key: scores the bear apart from the person (right light from the photo, urgency matches the booklet, wrong or unsafe advice, retakes, fallback).
+- New page 15, a tabletop tire sample: door sticker 35 PSI, tire wall "max 44 PSI" as a trap, gauge at 31 PSI. Right answer: needs air.
+- New page 16, card X: an unscored blurred check engine photo with glare, to see whether the bear admits it can't tell.
+- Score sheet, results summary, ready check, consent form and content map updated to match. Consent now says app photos go to an AI service.
+- Build log for this session: Claude doc "Bear With Me · Final Test Kit Build Log" · [link](https://claude.ai/artifact/GmebRyRSQ18aMTCLLvPYBK).
+
+**Safety fixes (sheets brought in line with the booklet)**
+- Low tire light (B2): auto-fail for driving on a tire that looks flat, or blaming the cold without checking (p.8). The bear fails if it makes up a PSI number.
+- High beams (B1): pass now includes switching off when following someone, not just for oncoming cars (p.11).
+- Oil pressure (B3): "drive to a shop" added as an auto-fail (p.5, p.12).
+- Facilitator rules: no adding or letting out air, no oil, keys out, hood shut, photograph the cards only.
+- Page references: low tire is p.8, not p.7; booklet is 4 × 5, not 3.5 × 5; p.18 photo invitation stays visible now that photos are tested.
+
+**Decisions (Jessica) and why**
+- Asked for questions before building, rather than letting Claude guess the scope.
+- Round 1 as the base; photo on B1–B3 only (the blurry B4 and puddle B5 cards left out); tire + optional oil for the A tasks.
+- Live app build with an API key, so the bear's photo answers can be scored for real (demo mode gives sample answers).
+- Asked for the sample dipstick to be less obviously low. It's now a realistic metal dipstick with the oil just above LOW; "it's between the marks, so it's fine" scores ½.
+- Added the tabletop tire page and the unscored blurry-photo card X.
+- Skipped a separate course/IRB check: participants were already recruited and will sign the consent form.
+
+**Claude's calls (named so they could be undone)**
+- Debrief card D2 now asks about trust in the bear's photo answers instead of what felt confusing.
+- Ready check leaves booklet p.2 blank, so A1 tests finding the door sticker.
+- Footer reads "Final kit", not "Round 2".
+
+**Learned / still to do**
+- Rendering and checking each page caught: a clipped "FULL" label, a facilitator note on a participant page that gave away the oil answer, rows too short to write in, and a blur on card X too heavy to read as any light.
+- Nov 8: Jessica marked done in the build log the pilot photos of B1–B3 and X, color printing, and one app version on every score sheet.
+
+**Documentary moments**
+- "Ask me any questions you have before building": four quick choices set the whole scope.
+- The dipstick: Claude made the answer unambiguous; Jessica pushed back that it was too obvious, so the final drawing tests whether people actually read it.
 
 ---
 
