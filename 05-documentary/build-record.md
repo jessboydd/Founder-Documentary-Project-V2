@@ -256,6 +256,15 @@ The Claude links are private to Jessica until shared.
 - "Ask me any questions you have before building": four quick choices set the whole scope.
 - The dipstick: Claude made the answer unambiguous; Jessica pushed back that it was too obvious, so the final drawing tests whether people actually read it.
 
+
+## 2026-11-09 · Sources added back to the final test kit
+
+**Made**
+- Answer key (p. 4 of `04-testing/test-kit/bear-with-me-test-kit-final.pdf`): new "Sources" box under the checked-against line. It keeps the owner's manual as the final word and links NHTSA's tire safety page (home of the TireWise campaign), the NHTSA TireWise safety flyer, and AAA's tire pressure monitoring research (Oct 2023). Links are clickable in the PDF.
+
+**Decisions (Jessica) and why**
+- Her Round 1 kit told facilitators to "verify guidance with car manual and credible sources" and named NHTSA TireWise and AAA, but the final kit had dropped the line and no links had been saved anywhere. She asked for it back, with links.
+
 ---
 
 ## Founder decisions (booklet and app)
