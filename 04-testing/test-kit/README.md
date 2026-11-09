@@ -1,5 +1,7 @@
 # Usability test kit (draft)
 
+> **Final version (2026-11-01):** print `bear-with-me-test-kit-final.pdf` (16 pages, Round 1 base, photo recognition on B1–B3, checked against booklet 4 × 5 v2). See the 2026-11-01 final kit entry in `05-documentary/build-record.md`. The draft below is kept for the record.
+
 Printable materials for the Scenario A (tire pressure / kit) and Scenario B (dashboard warnings / app) sessions in `../test-plan.md`. Drafted 2026-10-21 with Claude; **not yet reviewed or piloted**.
 
 Print `bear-with-me-test-kit.pdf` on letter paper. Editable source: the "Bear With Me Test Kit" design canvas in Claude.
